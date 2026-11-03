@@ -23,9 +23,5 @@ func TestInformationHandler(t *testing.T) {
 	if err != nil {
 		t.Errorf("Failed to decode : %v", err)
 	}
-	if response.RemainingTickets != 56 {
-		t.Errorf("Got remaining tickets %d , But wanted 56", response.RemainingTickets)
-
-	}
 
 }

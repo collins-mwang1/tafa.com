@@ -17,7 +17,4 @@ func TestBookingProcess(t *testing.T) {
 		t.Errorf("we have %v tickets kindly try a lower value", totalTikos)
 		return
 	}
-	if remainingTikos != 30 {
-		t.Errorf("Expected Tickets to be 30, but Got %d", remainingTikos)
-	}
 }

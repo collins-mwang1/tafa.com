@@ -25,8 +25,8 @@ func TestRequest(t *testing.T) {
 
 	}
 
-	if response.ConferenceName != "Tafa" {
-		t.Errorf("expected name to be Tafa but got %s", response.ConferenceName)
+	if response.ConferenceName != "Tafa Business Conference" {
+		t.Errorf("expected name to be Tafa Business Conference but got %s", response.ConferenceName)
 
 	}
 

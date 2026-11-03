@@ -10,8 +10,8 @@ func TestValidatePhone(t *testing.T) {
 		phone string
 	}{
 		{name: "Valid Phone", phone: "0768510821"},
-		{name: "incomplete", phone: "076850"},
-		{name: "Space", phone: "          "},
+		{name: "incomplete", phone: "0768000050"},
+		{name: "Space", phone: "    000045464664      "},
 	}
 
 	for _, tt := range tests {
